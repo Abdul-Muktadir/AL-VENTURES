@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
-
+'test'
 
 <section class="featured">
 	<div id="index">
