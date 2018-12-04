@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528cb858-ee38-409a-a22d-950718a802bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/docs/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/docs/documentation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/upgrade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/basic-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/basic-grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/full-width.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/full-width.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sidebar-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sidebar-left.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sidebar-right.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sidebar-right.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/scripts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/scripts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/styles/fonts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/styles/fonts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/styles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/styles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/styles/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index .php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-806">
-              <caret line="192" column="50" selection-start-line="192" selection-start-column="43" selection-end-line="192" selection-end-column="50" />
+            <state relative-caret-position="231">
+              <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
             </state>
           </provider>
         </entry>
@@ -298,6 +293,19 @@
               <item name="AL-VENTURES" type="b2602c69:ProjectViewProjectNode" />
               <item name="AL-VENTURES" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL-VENTURES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL-VENTURES" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL-VENTURES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL-VENTURES" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,6 +323,25 @@
               <item name="AL-VENTURES" type="b2602c69:ProjectViewProjectNode" />
               <item name="AL-VENTURES" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL-VENTURES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL-VENTURES" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL-VENTURES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL-VENTURES" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AL-VENTURES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AL-VENTURES" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AL-VENTURES" type="b2602c69:ProjectViewProjectNode" />
@@ -405,15 +432,16 @@
       <workItem from="1541666841165" duration="590000" />
       <workItem from="1542639223289" duration="557000" />
       <workItem from="1542718597031" duration="584000" />
-      <workItem from="1543914944813" duration="3891000" />
+      <workItem from="1543914944813" duration="4232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226084000" />
+    <option name="totallyTimeSpent" value="226425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.18299595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -705,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index .php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-806">
-          <caret line="192" column="50" selection-start-line="192" selection-start-column="43" selection-end-line="192" selection-end-column="50" />
+        <state relative-caret-position="231">
+          <caret line="253" lean-forward="true" selection-start-line="253" selection-end-line="253" />
         </state>
       </provider>
     </entry>
