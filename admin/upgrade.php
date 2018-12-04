@@ -77,7 +77,7 @@
             </a>
           </li>
           <!-- <li class="nav-item active-pro active ">
-                <a class="nav-link" href="./upgrade.html">
+                <a class="nav-link" href="./upgrade.php">
                     <i class="material-icons">unarchive</i>
                     <p>Upgrade to PRO</p>
                 </a>
@@ -212,7 +212,7 @@
                             <a href="#" class="btn btn-round btn-fill btn-default disabled">Current Version</a>
                           </td>
                           <td class="text-center">
-                            <a target="_blank" href="http://www.creative-tim.com/product/material-dashboard-pro/?ref=md-free-upgrade-live" class="btn btn-round btn-fill btn-info">Upgrade to PRO</a>
+                            <a target="_blank" href="http://www.creative-tim.com/product/material-dashboard-pro/upgrade.php?ref=md-free-upgrade-live" class="btn btn-round btn-fill btn-info">Upgrade to PRO</a>
                           </td>
                         </tr>
                       </tbody>

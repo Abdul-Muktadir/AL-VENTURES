@@ -8,10 +8,19 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>Nodelle | Pages | Gallery</title>
+<title>Nodelle | Pages | Basic Grid</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<style type="text/css">
+/* DEMO ONLY */
+.container .demo{text-align:center;}
+.container .demo div{padding:8px 0;}
+.container .demo div:nth-child(odd){color:#FFFFFF; background:#CCCCCC;}
+.container .demo div:nth-child(even){color:#FFFFFF; background:#979797;}
+@media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
+/* DEMO ONLY */
+</style>
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -54,11 +63,11 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="../index.html">Home</a></li>
         <li class="active"><a class="drop" href="#">Pages</a>
           <ul>
-            <li class="active"><a href="gallery.html">Gallery</a></li>
-            <li><a href="full-width.html">Full Width</a></li>
-            <li><a href="sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="sidebar-right.html">Sidebar Right</a></li>
-            <li><a href="basic-grid.html">Basic Grid</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="full-width.php">Full Width</a></li>
+            <li><a href="sidebar-left.php">Sidebar Left</a></li>
+            <li><a href="sidebar-right.php">Sidebar Right</a></li>
+            <li class="active"><a href="basic-grid.php">Basic Grid</a></li>
           </ul>
         </li>
         <li><a class="drop" href="#">Dropdown</a>
@@ -105,44 +114,42 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
-      <div id="gallery">
-        <figure>
-          <header class="heading">Gallery Title Goes Here</header>
-          <ul class="nospace clear">
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-          </ul>
-          <figcaption>Gallery Description Goes Here</figcaption>
-        </figure>
+      <h2>Half</h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_half first">1/2</div>
+        <div class="one_half">1/2</div>
       </div>
       <!-- ################################################################################################ -->
+      <h2>Quarter</h2>
       <!-- ################################################################################################ -->
-      <nav class="pagination">
-        <ul>
-          <li><a href="#">&laquo; Previous</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><strong>&hellip;</strong></li>
-          <li><a href="#">6</a></li>
-          <li class="current"><strong>7</strong></li>
-          <li><a href="#">8</a></li>
-          <li><a href="#">9</a></li>
-          <li><strong>&hellip;</strong></li>
-          <li><a href="#">14</a></li>
-          <li><a href="#">15</a></li>
-          <li><a href="#">Next &raquo;</a></li>
-        </ul>
-      </nav>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first">1/4</div>
+        <div class="one_quarter">1/4</div>
+        <div class="one_quarter">1/4</div>
+        <div class="one_quarter">1/4</div>
+      </div>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first">1/4</div>
+        <div class="one_quarter">1/4</div>
+        <div class="two_quarter">2/4 or 1/2</div>
+      </div>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first">1/4</div>
+        <div class="three_quarter">3/4</div>
+      </div>
+      <!-- ################################################################################################ -->
+      <h2>Third</h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_third first">1/3</div>
+        <div class="one_third">1/3</div>
+        <div class="one_third">1/3</div>
+      </div>
+      <div class="group demo">
+        <div class="one_third first">1/3</div>
+        <div class="two_third">2/3</div>
+      </div>
       <!-- ################################################################################################ -->
     </div>
     <!-- ################################################################################################ -->
